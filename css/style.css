@@ -47,6 +47,7 @@ header {
 .jumbotron {
     /* test structure */
     background-color: #b4d0e7;
+    height: 100vh;
 
 }
 
@@ -84,12 +85,44 @@ header {
 
 /* Section-piano-dropbox */
 
+/* .piano-dropbox title */
+
 .piano-dropbox {
 
 }
 
 .piano-dropbox-container {
+    /* test structure */
+    height: 100vh;
     width: 60%;
     margin: 0 auto;
     border: 1px solid black;
+}
+
+.piano-dropbox-title h1 {
+    /* test structure */
+    margin: 5em 0 2em;
+}
+
+.piano-dropbox-title span {
+    /* test structure */
+    margin-right: .5em;
+}
+
+/* Table-top */
+
+.col-professional {
+    width: calc(100%/3);
+    background-color: blueviolet;
+}
+
+.col-standard {
+    background-color: hotpink;
+    width: calc(100%/3);
+
+}
+
+.col-advanced {
+    width: calc(100%/3);
+    background-color: blue;
 }
