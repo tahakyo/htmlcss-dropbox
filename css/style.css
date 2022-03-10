@@ -12,9 +12,17 @@ html {
     font-size: 100%;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
-
-
+.col {
+    /* test structure */
+    height: 400px;
+    float: left;
+}
 
 /* HEADER */
 
@@ -36,18 +44,37 @@ header {
 
 .jumbotron {
     /* test structure */
-    height: 500px;
     background-color: #b4d0e7;
 
 }
 
-.jumbotron-title {
+.jumbotron-title-container {
     /* test structure */
-    margin: 5em 0em 2em;
-}
+    width: 80%;
+    margin: 0 auto;
+    padding: 5em 0 2em}
 
-.jumbotron-content {
+.jumbotron-banner-container {
+    /* test structure */
     width: 80%;
     border: 1px solid black;
     margin: 0 auto;
+}
+
+.jumbotron-banner {
+    /* test structure */
+    width: 100%;
+    border: 1px solid red;
+}
+
+.banner-prova-gratuita {
+    /* test structure */
+    width: 40%;
+    background-color: yellow;
+}
+
+.banner-dimostrativo {
+    /* test structure */
+    width: 60%;
+    background-color: violet;
 }
