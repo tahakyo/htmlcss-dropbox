@@ -11,3 +11,23 @@ html {
     font-family: "open", sans-serif;
     font-size: 100%;
 }
+
+
+
+
+
+/* HEADER */
+
+header {
+    /* test struttura */
+    height: 60px;
+    background-color:chartreuse
+}
+
+.header-nav {
+    /* test struttura */
+    height: 100%;
+    border: 1px solid black;
+    margin: 0 13px;
+    background-color: bisque;
+}
