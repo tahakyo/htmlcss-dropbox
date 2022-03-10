@@ -31,3 +31,23 @@ header {
     margin: 0 13px;
     background-color: bisque;
 }
+
+/* MAIN */
+
+.jumbotron {
+    /* test structure */
+    height: 500px;
+    background-color: #b4d0e7;
+
+}
+
+.jumbotron-title {
+    /* test structure */
+    margin: 5em 0em 2em;
+}
+
+.jumbotron-content {
+    width: 80%;
+    border: 1px solid black;
+    margin: 0 auto;
+}
