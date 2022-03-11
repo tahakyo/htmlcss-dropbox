@@ -41,7 +41,12 @@ img {
     display: inline;
 }
 
+.btn-large {
+    display: inline-block;
+    padding: .5em 1.9em;
+    color: white;
 
+}
 
 
 /* Bottons */
@@ -92,4 +97,131 @@ header {
     display: inline-block;
 }
 
+
+
+/* MAIN */
+
+
+.jumbotron {
+    /* test structure */
+    background-color: #b4d0e7;
+    height: 100vh;
+    
+}
+
+.jumbotron-title-container {
+    /* test structure */
+    width: 80%;
+    margin: 0 auto;
+    padding: 5em 0 2em;
+    font-size: 2rem;
+}
+    
+.jumbotron-banner-container {
+    /* test structure */
+    width: 80%;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+    
+.jumbotron-banner {
+    /* test structure */
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.col-jumbotron {
+    /* test structure */
+    height: 400px;
+    float: left;
+}
+    
+.banner-prova-gratuita {
+    /* test structure */
+    width: 40%;
+    /* background-color: yellow; */
+}
+
+.banner-prova-gratuita p:first-child {
+    margin-bottom: 2em;
+}
+
+.banner-prova-gratuita a {
+    margin-bottom: .5em;
+}
+.banner-prova-gratuita p:last-child {
+    font-size: small;
+}
+
+
+.banner-dimostrativo {
+    /* test structure */
+    width: 60%;
+    background-color: violet;
+}
+
+
+/* Section-piano-dropbox */
+
+/* .piano-dropbox title */
+
+.piano-dropbox {
+
+}
+
+.piano-dropbox-container {
+    /* test structure */
+    height: 100vh;
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.piano-dropbox-title h1 {
+    /* test structure */
+    margin: 5em 0 2em;
+}
+
+.piano-dropbox-title span {
+    /* test structure */
+    margin-right: .5em;
+}
+
+/* Table-top */
+
+.col-professional {
+    /* test structure */
+
+    /* width: calc((100% / 3) - 30px); */
+    background-color: blueviolet;
+}
+
+
+.col-table-top{
+    width: calc((100% / 3) - 10px);
+    float: left;
+    height: 400px;
+    border: 1px solid red;
+
+
+}
+
+.col-standard {
+    /* test structure */
+    margin: 0 15px;
+    background-color: hotpink;
+    /* width: calc((100% / 3) - 30px); */
+
+
+}
+
+.col-advanced {
+    /* test structure */
+    /* width: calc((100% / 3) - 30px); */
+    background-color: blue;
+}
+
+.table-top-title {
+    border-bottom: 1px solid black;
+    height: 10%;
+}
 
