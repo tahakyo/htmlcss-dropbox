@@ -153,6 +153,13 @@ header {
     font-size: small;
 }
 
+#arrow-down {
+    position: relative;
+    top: 30px;
+    left: 5px;
+    font-size: 1.5em;
+}
+
 .banner-dimostrativo img {
     position: relative;
     bottom: -80px;
