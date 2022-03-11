@@ -45,21 +45,34 @@ header {
     background-color: bisque;
 }
 
-.header-nav-left {
-    line-height: 60px;
+.col-header {
+    height: 60px;
+    float: left;
 }
-.header-nav-menu-left {
+
+.nav-left {
+    line-height: 60px;
+    width: 60%;
+}
+.menu-left {
     display: inline-block;
     vertical-align: middle;
 }
-.header-nav-menu-left li {
+.menu-left li {
 display: inline-block;
 }
-.header-nav-left img {
-    width: 10%;
+.nav-left img {
+    width: 95px;
     vertical-align: middle;
 }
 
+.menu-right li {
+    display: inline-block;
+}
+.nav-right {
+    line-height: 60px;
+    width: 40%;
+}
 
 /* MAIN */
 
