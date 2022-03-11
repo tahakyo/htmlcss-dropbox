@@ -25,9 +25,13 @@ a {
     text-decoration: none;
 }
 
-/* img {
-    width: 100%;
-} */
+.blue {
+    background-color: #0061ff;
+}
+
+.mg-right-1{
+    margin-right: 1em;
+}
 
 /* HEADER */
 
@@ -58,22 +62,43 @@ header {
     display: inline-block;
     vertical-align: middle;
 }
-.menu-left li {
-display: inline-block;
-}
 .nav-left img {
     width: 95px;
     vertical-align: middle;
+    margin-right: 1em;
+    
+}
+.menu-left li {
+    display: inline-block;
+    margin-right: 1em;
+
+}
+.menu-left a {
+    color: black;
+
 }
 
 .menu-right li {
     display: inline-block;
+    vertical-align: middle;
+
 }
+
 .nav-right {
     line-height: 60px;
     width: 40%;
+    text-align: right;
 }
+.btn-small {
+    color: white;
+    padding: 3px 8px;
+    font-size: .85em;
+}
+.menu-right a:not(.btn-small) {
+    margin-right: 1em;
+    color: black;
 
+}
 /* MAIN */
 
 /* Section-jumbotron */
