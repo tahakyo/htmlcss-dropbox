@@ -18,10 +18,9 @@ html {
     clear: both;
 }
 
-.col {
-    /* test structure */
-    height: 400px;
-    float: left;
+
+.margin-right {
+    margin-right: 15px;
 }
 
 /* HEADER */
@@ -48,7 +47,7 @@ header {
     /* test structure */
     background-color: #b4d0e7;
     height: 100vh;
-
+    
 }
 
 .jumbotron-title-container {
@@ -56,23 +55,28 @@ header {
     width: 80%;
     margin: 0 auto;
     padding: 5em 0 2em}
-
-.jumbotron-banner-container {
-    /* test structure */
-    width: 80%;
-    border: 1px solid black;
-    margin: 0 auto;
-}
-
-.jumbotron-banner {
-    /* test structure */
-    width: 100%;
-    border: 1px solid red;
-}
-
-.banner-prova-gratuita {
-    /* test structure */
-    width: 40%;
+    
+    .jumbotron-banner-container {
+        /* test structure */
+        width: 80%;
+        border: 1px solid black;
+        margin: 0 auto;
+    }
+    
+    .jumbotron-banner {
+        /* test structure */
+        width: 100%;
+        border: 1px solid red;
+    }
+    .col-jumbotron {
+        /* test structure */
+        height: 400px;
+        float: left;
+    }
+    
+    .banner-prova-gratuita {
+        /* test structure */
+        width: 40%;
     background-color: yellow;
 }
 
@@ -112,17 +116,36 @@ header {
 /* Table-top */
 
 .col-professional {
-    width: calc(100%/3);
+    /* test structure */
+
+    /* width: calc((100% / 3) - 30px); */
     background-color: blueviolet;
 }
 
+
+.col-table-top{
+    width: calc((100% / 3) - 30px);
+    float: left;
+    height: 400px;
+
+}
+
 .col-standard {
+    /* test structure */
+    margin: 0 15px;
     background-color: hotpink;
-    width: calc(100%/3);
+    /* width: calc((100% / 3) - 30px); */
+
 
 }
 
 .col-advanced {
-    width: calc(100%/3);
+    /* test structure */
+    /* width: calc((100% / 3) - 30px); */
     background-color: blue;
+}
+
+.table-top-title {
+    border-bottom: 1px solid black;
+    height: 10%;
 }
