@@ -120,7 +120,7 @@ header {
 .jumbotron-banner-container {
     /* test structure */
     width: 80%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 0 auto;
 }
     
@@ -131,7 +131,7 @@ header {
 }
 .col-jumbotron {
     /* test structure */
-    height: 400px;
+    /* height: 400px; */
     float: left;
 }
     
@@ -148,15 +148,21 @@ header {
 .banner-prova-gratuita a {
     margin-bottom: .5em;
 }
+
 .banner-prova-gratuita p:last-child {
     font-size: small;
+}
+
+.banner-dimostrativo img {
+    position: relative;
+    bottom: -80px;
 }
 
 
 .banner-dimostrativo {
     /* test structure */
     width: 60%;
-    background-color: violet;
+    /* background-color: violet; */
 }
 
 
