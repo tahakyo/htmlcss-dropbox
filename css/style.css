@@ -205,14 +205,14 @@ header {
     /* test structure */
 
     /* width: calc((100% / 3) - 30px); */
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 
 .col-table-top{
     width: calc((100% / 3) - 10px);
     float: left;
-    height: 400px;
+    min-height: 735px;
     border: 1px solid red;
 
 
@@ -236,5 +236,12 @@ header {
 .table-top-title {
     border-bottom: 1px solid black;
     height: 10%;
+    text-align: center;
+    line-height: 40px;
 }
+
+.col-professional-content, .col-professional-advantages {
+    padding-left: 1em;
+}
+
 
