@@ -330,3 +330,15 @@ header {
     border: 1px solid black;
     padding: .5em .8em;
 }
+/* Dropbox-partner */
+
+.col-buisiness {
+    width: calc((100% / 3) - 10px);
+    float: left;
+}
+
+.center {
+    margin: 0 15px;
+    
+    
+}
