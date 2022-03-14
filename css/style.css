@@ -45,6 +45,7 @@ img {
     display: inline-block;
     padding: .5em 1.9em;
     color: white;
+    text-align: center;
 
 }
 
@@ -265,9 +266,31 @@ header {
 }
 
 /* Table bottom */
+.table-btm {
+    border: 1px solid lightgray;
 
+}
 .table-btm-title {
-    border: 1px solid black;
+    border-bottom: 1px solid lightgray;
     text-align: center;
     padding: .7em;
+}
+
+.table-btm-content {
+    /* border: 1px solid black; */
+    padding: 1em;
+    
+}
+
+.col-left {
+    width: 70%;
+    line-height: 2em;
+}
+.col-right {
+    width: 30%;
+    text-align: center;
+}
+
+.col-left h3,h4 {
+    font-weight: 900;
 }
