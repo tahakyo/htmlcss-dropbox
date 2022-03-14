@@ -58,7 +58,9 @@ img {
 
 }
 
-
+.mg-btm-2 {
+    margin-bottom: 2em;
+}
 .mg-right-1{
     margin-right: 1em;
 }
@@ -209,12 +211,6 @@ header {
 
 /* Table-top */
 
-.col-professional {
-    /* test structure */
-
-    /* width: calc((100% / 3) - 30px); */
-    /* background-color: blueviolet; */
-}
 
 
 .col-table-top{
@@ -272,4 +268,6 @@ header {
 
 .table-btm-title {
     border: 1px solid black;
+    text-align: center;
+    padding: .7em;
 }
