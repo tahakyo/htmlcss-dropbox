@@ -267,3 +267,9 @@ header {
     font-size: 1.5em;
     font-weight: 800;
 }
+
+/* Table bottom */
+
+.table-btm-title {
+    border: 1px solid black;
+}
