@@ -221,7 +221,6 @@ header {
 .col-standard {
     /* test structure */
     margin: 0 15px;
-    background-color: hotpink;
     /* width: calc((100% / 3) - 30px); */
 
 
@@ -230,7 +229,6 @@ header {
 .col-advanced {
     /* test structure */
     /* width: calc((100% / 3) - 30px); */
-    background-color: blue;
 }
 
 .table-top-title {
@@ -241,7 +239,23 @@ header {
 }
 
 .col-professional-content, .col-professional-advantages {
-    padding-left: 1em;
+    padding: 1em;
+    line-height: 2em;
+
 }
 
+.col-standard-content, .col-standard-advantages{
+    padding: 1em;
+    line-height: 2em;
 
+}
+
+.col-advanced-content, .col-advanced-advantages {
+    padding: 1em;
+    line-height: 2em;
+}
+
+.h3-font-style {
+    font-size: 1.5em;
+    font-weight: 800;
+}
