@@ -27,12 +27,24 @@ a {
 img {
     width: 100%;
 }
+.container {
+    /* test structure */
+    /* height: 100vh; */
+    width: 60%;
+    margin: 0 auto;
+}
 /* Bottons */
 .blue {
     background-color: #0061ff;
     display: inline-block;
     padding: .5em 1.5em;
     color: white;
+}
+.white {
+    background-color: white;
+    display: inline-block;
+    padding: .5em 1.5em;
+    color: black;
 }
 
 
@@ -57,6 +69,9 @@ img {
 .small-font{
     font-size: .75em;
 
+}
+.mg-btm-4 {
+    margin-bottom: 4em;
 }
 
 .mg-btm-2 {
@@ -191,12 +206,6 @@ header {
 
 }
 
-.piano-dropbox-container {
-    /* test structure */
-    height: 100vh;
-    width: 60%;
-    margin: 0 auto;
-}
 .piano-dropbox-title {
     padding: 6em 0 2em;
 }
@@ -214,11 +223,13 @@ header {
 
 
 
-.col-table-top{
+.col-table-top {
     width: calc((100% / 3) - 10px);
     float: left;
     min-height: 735px;
     border: 1px solid lightgrey;
+    
+
 
 
 }
@@ -293,4 +304,29 @@ header {
 
 .col-left h3,h4 {
     font-weight: 900;
+}
+
+/* Dropbox-partner */
+
+.dropbox-partner {
+    /* border: 1px solid red; */
+}
+
+.col-left-partner {
+    width: 50%;
+    float: left;
+}
+
+.col-right-partner {
+    height: 100%;
+    width: 50%;
+    float: right;
+    padding-left: 2em;
+    /* border: 1px solid red; */
+}
+
+
+#btn-partner {
+    border: 1px solid black;
+    padding: .5em .8em;
 }
